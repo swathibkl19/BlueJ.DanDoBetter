@@ -137,6 +137,10 @@ public class StringUtilitiesTest {
     public void getTheFirstWord(){
         // : Given
         String input = "Zipcode Wilmington";
+        
+        //String[] words = input.split(" ");
+        //{"Zipcode", "Wilmington"}
+        
         String expected = "Zipcode";
 
         // : When
